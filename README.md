@@ -170,7 +170,7 @@ Virtual Embryo is a research team focused on the physics of morphogenesis, led b
 More details here: [Virtual Embryo](https://www.virtual-embryo.com)
 
 ### Contact us
-Enquiries about this project should be addressed to [Mathieu Le Verge-Serandour](mathieu.le-verge-serandour@college-de-france.fr) or [Hervé Turlier](herve.turlier@college-de-france.fr)
+Enquiries about this project should be addressed to [Mathieu Le Verge-Serandour](mailto:mathieu.le-verge-serandour@college-de-france.fr) or [Hervé Turlier](mailto:herve.turlier@college-de-france.fr)
 
 
 ### License
