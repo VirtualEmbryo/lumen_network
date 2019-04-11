@@ -1,3 +1,4 @@
+
 # Lumen network
 **Lumen network** is a Python-based code for simulations of coarsening in a 2D network of lumens. It was developed to describe the process of blastocoel formation in the mouse embryo [1]. The network is fixed and the lumen are represented by nodes, each described by their area, tension and contact tension, and connected by edges. The code solves a system of coupled non-linear equations for the area dynamics of each lumen, by computing the flux between them. A simulation starts from an initial configuration, which is defined by the user, and runs until one single lumen is left, and has siphoned all the others.
 
@@ -155,7 +156,7 @@ You can launch simulations on a cluster using Slurm, using the *submit.py* scrip
 where `config????` is the list of configurations you want to run (config0000, config0001, ...).
 
 ## Data visualisation
-We provide Jupyter Notebooks for data visualisation of some results obtained with this code. Go in the *jupyter/* folder and use a notebook to visualize. You may also use a Jupyter viewer.
+We provide Jupyter Notebooks for data visualisation of some results obtained with this code. Go in the *jupyter/* folder and use a notebook to visualize. You may also use a [Jupyter viewer](https://nbviewer.jupyter.org/github/VirtualEmbryo/lumen_network/blob/master/jupyter/figures.ipynb).
 
 
 ## About
