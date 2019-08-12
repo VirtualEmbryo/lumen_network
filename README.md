@@ -66,7 +66,7 @@ The code uses the library configparser to read template files. Template files ar
 	* topology 		: *string*, topology of the network. Can be *hexagonal*, *triangular* or *chain* (1d).
 	* nlayers		: *int*, number of layers of the network.
 	* pbc			: *boolean*, include periodic boundary conditions if *True*. Works only for 1D *chain* configurations.
-	* nbicellular 	: *int*, number of bicellular lumens.
+	* nbicellular 	: *int*, number of bi-cellular lumens.
 	* seed 			: *int*, specify the seed for RNG. Default is *None*, else an integer.
 
 * tensions
@@ -135,7 +135,7 @@ Note that the output files will be stored in a `out/` folder.
 	* min_step 	 : *float*, minimum time for the integration window. Default is 0.
 	* max_step 	 : *float*, max step time for the integration window. Default is 0.1
 	* integrator : *string*, type of integrator. Can be **odeint**, **solve_ivp**, **RK23**. Default is odeint.
-	* adaptative : *boolean*, use an adaptative time step if *True*.
+	* adaptive : *boolean*, use an adaptive time step if *True*.
 	* save_area  : *boolean*, if *True*, record the areas in the *out/area.dat* file.
 * swelling
 	* swelling_bool : *boolean*, if *True*, add swelling to the simulation.
@@ -155,8 +155,8 @@ You can launch simulations on a cluster using Slurm, using the *submit.py* scrip
 
 where `config????` is the list of configurations you want to run (config0000, config0001, ...).
 
-## Data visualisation
-We provide Jupyter Notebooks for data visualisation of some results obtained with this code. Go in the *jupyter/* folder and use a notebook to visualize. You may also use a [Jupyter viewer](https://nbviewer.jupyter.org/github/VirtualEmbryo/lumen_network/blob/master/jupyter/figures.ipynb).
+## Data visualization
+We provide Jupyter Notebooks for data visualization of some results obtained with this code. Go in the *jupyter/* folder and use a notebook to visualize. You may also use a [Jupyter viewer](https://nbviewer.jupyter.org/github/VirtualEmbryo/lumen_network/blob/master/jupyter/figures.ipynb).
 
 
 ## About
@@ -187,7 +187,7 @@ furnished to do so, subject to the following conditions:
 
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-* The original paper should be cited: [Dumortier, et al., Biorxiv, 2019](https://www.biorxiv.org/content/10.1101/537985v1)
+* The original paper should be cited: [Dumortier, J. G., Le Verge-Serandour, M., Tortorelli, A. F., Mielke, A., de Plater, L., Turlier, H., & Maître, J. L. (2019). Hydraulic fracturing and active coarsening position the lumen of the mouse blastocyst. Science, 365(6452), 465-468.](https://doi.org/10.1126/science.aaw7709)
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
