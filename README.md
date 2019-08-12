@@ -2,8 +2,8 @@
 # Lumen network
 **Lumen network** is a Python-based code for simulations of coarsening in a 2D network of lumens. It was developed to describe the process of blastocoel formation in the mouse embryo [1]. The network is fixed and the lumen are represented by nodes, each described by their area, tension and contact tension, and connected by edges. The code solves a system of coupled non-linear equations for the area dynamics of each lumen, by computing the flux between them. A simulation starts from an initial configuration, which is defined by the user, and runs until one single lumen is left, and has siphoned all the others.
 
-Please cite us to use this code:
-[1] [Dumortier, et al., Biorxiv, 2019](https://www.biorxiv.org/content/10.1101/537985v1)
+Please cite the original publication if you use this code:
+[1] [Dumortier, J. G., Le Verge-Serandour, M., Tortorelli, A. F., Mielke, A., de Plater, L., Turlier, H., & Maître, J. L. (2019). Hydraulic fracturing and active coarsening position the lumen of the mouse blastocyst. Science, 365(6452), 465-468.](https://doi.org/10.1126/science.aaw7709)
 
 ## Requirements
 
